@@ -1,30 +1,34 @@
-# 🔐 react-login-component
+
+#  🔐 react-login-component
 
 A robust and reusable React login component with simulated authentication.
 
-## 🌟 Overview
+
+## ## 🌟 Overview
 
 `react-login-component` is a professionally crafted, customizable React component designed for seamless user authentication integration. It offers a clean, user-friendly interface with built-in form validation and flexible styling options.
-
-## ✨ Features
+## ## ✨ Features
 
 - 🚀 **Effortless Integration**: Easily incorporate the `LoginComponent` into any React application.
 - ✅ **Form Validation**: Implements robust field validation for username and password inputs.
 - 🎨 **Customizable Styling**: Fully customizable appearance through CSS classes.
 - 🔗 **Flexible Authentication**: Connects smoothly with various authentication systems via the `onLogin` prop.
 - 👤 **User Display**: Includes a `DisplayComponent` for presenting logged-in user information.
-
 ## 📦 Installation
-bash
-npm install @kamrulhassan2015/react-login-component
+
+```bash
+  npm install @kamrulhassan2015/react-login-component
+```
 
 or
 
+
+```bash
 yarn add @kamrulhassan2015/react-login-component
+```
 
-
-## 🚀 Usage
-
+## ## 🚀 Usage
+```bash
 import React, { useState } from 'react';
 import { LoginComponent, DisplayComponent } from '@kamrulhassan2015/react-login-component';
 const App = () => {
@@ -46,40 +50,32 @@ return (
 );
 };
 export default App;
-
-
-## 🧩 Components
-
-### 🔑 LoginComponent
+```
+## ## 🧩 Components
+## ### 🔑 LoginComponent
 
 The primary component for managing user authentication.
 
 **Props:**
 - `onLogin`: Function called upon successful login, receives the username as an argument.
-
-### 👤 DisplayComponent
+## ### 👤 DisplayComponent
 
 A component for rendering logged-in user information and logout functionality.
 
 **Props:**
 - `username`: The username of the authenticated user.
 - `onLogout`: Function called when the user initiates logout.
+## ## 🛠️ Development
 
-## 🛠️ Development
-
-bash
-git clone https://github.com/yourusername/react-login-component.git
+```bash
+git clone https://github.com/KamrulHasaanAnanda/react-login-package
 cd react-login-component
 npm install
-
-## 👨‍💻 Author
-
+```
+## ## 👨‍💻 Author
+```bash
 Kamrul Hassan Ananda
-
-## 🏷️ Keywords
+```
+## ## 🏷️ Keywords
 
 react, login, component, authentication, form
-
-## 📄 License
-
-MIT

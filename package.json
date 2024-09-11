@@ -1,6 +1,6 @@
 {
   "name": "@kamrulhassan2015/react-login-component",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "description": "A simple React login component",
   "main": "dist/index.umd.js",
   "module": "dist/index.es.js",
